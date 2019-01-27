@@ -1,0 +1,19 @@
+// proyecto presuouestos
+
+https://github.com/marcedecastro/presupuestos.git
+
+// vinculacion local
+
+// proyecto nuevo
+echo "# presupuestos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/marcedecastro/presupuestos.git
+git push -u origin master
+
+// proyecto existente
+
+git remote add origin https://github.com/marcedecastro/presupuestos.git
+git push -u origin master
+
