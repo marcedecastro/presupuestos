@@ -7,10 +7,12 @@ https://github.com/marcedecastro/presupuestos.git
 // proyecto nuevo
 echo "# presupuestos" >> README.md
 git init
-git add README.md
+// git add README.md
+git status
+git add de todos los archivos que aparecen en rojo
 git commit -m "first commit"
 git remote add origin https://github.com/marcedecastro/presupuestos.git
-git push -u origin master
+git push -u origin master // hace push a la rama master
 
 // proyecto existente
 
